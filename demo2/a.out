@@ -1,0 +1,22 @@
+#! /usr/local/bin/vvp
+:ivl_version "12.0 (stable)" "(v12_0)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "/usr/local/lib/ivl/system.vpi";
+:vpi_module "/usr/local/lib/ivl/vhdl_sys.vpi";
+:vpi_module "/usr/local/lib/ivl/vhdl_textio.vpi";
+:vpi_module "/usr/local/lib/ivl/v2005_math.vpi";
+:vpi_module "/usr/local/lib/ivl/va_math.vpi";
+S_0x561ba3452e60 .scope module, "top" "top" 2 2;
+ .timescale 0 0;
+    .scope S_0x561ba3452e60;
+T_0 ;
+    %vpi_call 2 4 "$display", "Hello, world" {0 0 0};
+    %vpi_call 2 5 "$finish" {0 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "/home/ckirk/repos/verilog-fundamentals/demo2/top.v";
