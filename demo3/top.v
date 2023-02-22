@@ -14,8 +14,8 @@ end
 
 // Vectors and arrays.
 reg [4:0] a;
-reg [3:0] b;
-reg [0:7] c[1:0];
+reg [3:0] b;        // bit-wise little endian
+reg [0:7] c[1:0];   // bit-wise big endian
 initial begin
     $display("a = %b, b = %b, c[0] = %b, c[0] = %b", a, b, c[0], c[1]);
     a = 5'b10101;

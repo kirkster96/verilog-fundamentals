@@ -48,12 +48,12 @@ end
 endmodule
 
 module example_module(input clk, input reset);
-  reg [7:0] count = 0;
-  reg [0:7] count2 = 0;
+  reg [7:0] count = 0;    // little bit-wise endian
+  reg [0:7] count2 = 0;   // big bit-wise endian
   reg enable = 1;
   // assign data2 = count;
-  assign data = count;
-  assign data2 = count2;
+  assign data = count;      // 
+  assign data2 = count2;    // will it get the MSB (bit 0) or the LSB (bit 7)? 
 
   always @(posedge clk or posedge reset) begin
     if (reset) begin
