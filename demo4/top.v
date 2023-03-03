@@ -47,6 +47,14 @@ initial begin
 end
 endmodule
 
+class MC;
+logic [3:0] m_x;
+local logic m_z;
+bit m_e;
+covergroup cv1 @(posedge clk); coverpoint m_x; endgroup
+covergroup cv2 @m_e ; coverpoint m_z; endgroup
+endclass
+
 module example_module(input clk, input reset);
   reg [7:0] count = 0;    // little bit-wise endian
   reg [0:7] count2 = 0;   // big bit-wise endian
