@@ -4,25 +4,7 @@
         {
             "label": "build",
             "type": "shell",
-            "command": "iverilog ${fileDirname}/*.v -I ${fileDirname}/ -o ${fileDirname}/a.out",
-            "presentation": {
-                "echo": true,
-                "reveal": "always",
-                "focus": false,
-                "panel": "shared",
-                "showReuseMessage": false,
-                "clear": true
-            },
-            "problemMatcher": [],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            }
-        },
-        {
-            "label": "build this",
-            "type": "shell",
-            "command": "iverilog ${fileDirname}/${fileBasename} -I ${fileDirname}/ -o ${fileDirname}/${fileBasenameNoExtension}",
+            "command": "iverilog ${fileDirname}/${fileBasename} -o ${fileDirname}/a.out",
             "presentation": {
                 "echo": true,
                 "reveal": "always",
@@ -71,7 +53,7 @@
         {
             "label": "clean",
             "type": "shell",
-            "command": "rm ${fileDirname}/${fileBasenameNoExtension}",
+            "command": "rm ${fileDirname}/a.out",
             "presentation": {
                 "echo": true,
                 "reveal": "always",
