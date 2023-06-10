@@ -1,7 +1,7 @@
 # Verilog Fundamentals
 <a href="https://www.youtube.com/playlist?list=PLiqmqQ7XKuf6-mw8fIMEQm9EDdio5THl3"><img src="https://img.youtube.com/vi/5cBpCp869II/hqdefault.jpg" alt="Verilog Fundamentals" height="256px" align="right"></a>
 
-This is the code repository for [Verilog Fundamentals](https://www.youtube.com/playlist?list=PLiqmqQ7XKuf6-mw8fIMEQm9EDdio5THl3), created by Cameron Kirk.
+This is the code repository for [Verilog Fundamentals](https://www.youtube.com/playlist?list=PLiqmqQ7XKuf6-mw8fIMEQm9EDdio5THl3), a YouTube tutorial series created by Cameron Kirk.
 
 **Learn hardware design in Verilog and write powerful hardware description language (HDL) code**
 
