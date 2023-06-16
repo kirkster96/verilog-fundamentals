@@ -57,7 +57,12 @@ This video doesn't include any example programs.
 
 ## Video 7: Dataflow Modeling
 
-This video is coming soon.
+* **[demo11/top.v](demo11/top.v)** 32-bit Full Adder
+* **[demo12/top.v](demo12/top.v)** Case Equality
+* **[demo13/top.v](demo13/top.v)** Bitwise vs Logical
+* **[demo14/top.v](demo14/top.v)** Parity Bit
+* **[demo15/top.v](demo15/top.v)** Bit shifting
+* **[demo16/top.v](demo16/top.v)** 2-to-1 mux
 
 ## Video 8: Behavioral Modeling
 
