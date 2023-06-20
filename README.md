@@ -66,7 +66,11 @@ This video doesn't include any example programs.
 
 ## Video 8: Behavioral Modeling
 
-This video is coming soon.
+* **[demo17/top.v](demo17/top.v)** Race Condition
+* **[demo18/top.v](demo18/top.v)** Timing Controls
+* **[demo19/top.v](demo19/top.v)** if Statements
+* **[demo20/top.v](demo20/top.v)** Simple ALU
+* **[demo21/top.v](demo21/top.v)** Traffic Signal
 
 ## Required Software
 
